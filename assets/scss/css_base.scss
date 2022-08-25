@@ -1,0 +1,52 @@
+* { 
+    font-size: 16px;
+}
+
+body{
+    background-color:white;
+}
+
+
+/*======================*/
+.style_seccion_contenido{
+    width: 100%;
+    padding: 50px;
+    
+}
+
+.center_col{
+    justify-content: center;
+    align-items: center;
+}
+
+.card_color{
+    background-color: green;
+}
+
+
+.div_img_card{
+    height:180px;
+    width: 100%; 
+    background-size: cover; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.div_hr_card{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%; 
+}
+
+.div_span_card{
+    margin-right: 5px;
+    float: right;
+}
+
+.div_span_card_green{
+    @extend .div_span_card;
+    color: green;
+    font-weight: bold;
+}

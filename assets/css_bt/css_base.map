@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "css_base.css",
+	"sources": [
+		"../scss/css_base.scss"
+	],
+	"sourcesContent": [
+		"* { \r\n    font-size: 16px;\r\n}\r\n\r\nbody{\r\n    background-color:white;\r\n}\r\n\r\n\r\n/*======================*/\r\n.style_seccion_contenido{\r\n    width: 100%;\r\n    padding: 50px;\r\n    \r\n}\r\n\r\n.center_col{\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n.card_color{\r\n    background-color: green;\r\n}\r\n\r\n\r\n.div_img_card{\r\n    height:180px;\r\n    width: 100%; \r\n    background-size: cover; \r\n    display: flex; \r\n    justify-content: center; \r\n    align-items: center;\r\n}\r\n\r\n.div_hr_card{\r\n    text-align: center;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    width: 100%; \r\n}\r\n\r\n.div_span_card{\r\n    margin-right: 5px;\r\n    float: right;\r\n}\r\n\r\n.div_span_card_green{\r\n    @extend .div_span_card;\r\n    color: green;\r\n    font-weight: bold;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAC,KAAK;CACzB;;AAGD,0BAA0B;;AAC1B,AAAA,wBAAwB,CAAA;EACpB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;CAEhB;;;AAED,AAAA,WAAW,CAAA;EACP,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACtB;;;AAED,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,KAAK;CAC1B;;;AAGD,AAAA,aAAa,CAAA;EACT,MAAM,EAAC,KAAK;EACZ,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,KAAK;EACtB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACtB;;;AAED,AAAA,YAAY,CAAA;EACR,UAAU,EAAE,MAAM;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,IAAI;CACd;;;AAED,AAAA,cAAc,EAKd,oBAAoB,CALN;EACV,YAAY,EAAE,GAAG;EACjB,KAAK,EAAE,KAAK;CACf;;;AAED,AAAA,oBAAoB,CAAA;EAEhB,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;CACpB"
+}

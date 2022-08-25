@@ -1,0 +1,59 @@
+/* line 1, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+* {
+  font-size: 16px;
+}
+
+/* line 5, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+body {
+  background-color: white;
+}
+
+/*======================*/
+/* line 11, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.style_seccion_contenido {
+  width: 100%;
+  padding: 50px;
+}
+
+/* line 17, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.center_col {
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 22, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.card_color {
+  background-color: green;
+}
+
+/* line 27, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.div_img_card {
+  height: 180px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 36, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.div_hr_card {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+/* line 43, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.div_span_card, .div_span_card_green {
+  margin-right: 5px;
+  float: right;
+}
+
+/* line 48, ../../../../programacion/workspace_latam/Modulo 02/m2_desafio04_2/assets/scss/css_base.scss */
+.div_span_card_green {
+  color: green;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=css_base.css.map */
